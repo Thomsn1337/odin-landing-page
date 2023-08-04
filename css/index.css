@@ -1,5 +1,6 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
 }
 
 body {
@@ -16,9 +17,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 60px;
+  padding: 0 130px;
   background-color: #1f2937;
   height: 60px;
+  gap: 40px;
 }
 
 .logo {
@@ -50,7 +52,57 @@ header ul {
 
 main {
   display: flex;
+  flex-direction: column;
   flex: 1;
+}
+
+.title {
+  padding: 0 130px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  min-height: 400px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.intro-text {
+  max-width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+
+.intro-text h1 {
+  padding-top: 0;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.intro-text p {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: auto;
+}
+
+.intro-text button {
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.title img {
+  height: 300px;
 }
 
 /* Footer styling */

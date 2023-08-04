@@ -10,3 +10,7 @@ layout. This is the second project of the Odin project Foundations course.
 
 - [[https://www.theodinproject.com/about][About Odin]]
 - [[https://www.theodinproject.com/lessons/foundations-landing-page][Assignment page]]
+
+** Credits
+
+- Pascvii, [[https://pixabay.com/photos/lake-maggiore-leggiuno-panorama-4081131/][photo in the heading]]
