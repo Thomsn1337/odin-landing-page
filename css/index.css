@@ -50,13 +50,15 @@ header ul {
 
 /* Main content styling */
 
+/* Hero section */
+
 main {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-.title {
+.hero {
   padding: 0 130px;
   background-color: #1f2937;
   color: white;
@@ -67,7 +69,7 @@ main {
   gap: 40px;
 }
 
-.intro-text {
+.hero-text {
   max-width: 500px;
   height: 300px;
   display: flex;
@@ -76,21 +78,21 @@ main {
   flex-shrink: 0;
 }
 
-.intro-text h1 {
+.hero-text h1 {
   padding-top: 0;
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: bolder;
 }
 
-.intro-text p {
+.hero-text p {
   font-size: 18px;
   padding: 0;
   margin: 0;
   margin-bottom: auto;
 }
 
-.intro-text button {
+.hero-text button {
   width: 130px;
   height: 40px;
   font-size: 18px;
@@ -99,9 +101,22 @@ main {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  transition-duration: 0.3s;
 }
 
-.title img {
+.hero-text button:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
+.hero img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #adadad;
+  color: black;
+  font-size: 18px;
+  width: 700px;
   height: 300px;
 }
 
