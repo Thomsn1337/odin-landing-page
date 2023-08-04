@@ -120,6 +120,59 @@ main {
   height: 300px;
 }
 
+/* Info section */
+
+.info {
+  text-align: center;
+  min-height: 500px;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 50px 0;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.info figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info img {
+  font-size: 18px;
+  background-color: #adadad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  min-height: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.info img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.info figcaption {
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.info img:hover ~ figcaption {
+  font-size: 20px;
+  transform: translateY(10px);
+}
+
 /* Footer styling */
 
 footer {
