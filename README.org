@@ -1,0 +1,12 @@
+#+title: Landing Page
+#+author: Thomas Steifler
+
+** About this project
+
+The goal of this project is to create a basic website using Flexbox by recreating a given
+layout. This is the second project of the Odin project Foundations course.
+
+** Links
+
+- [[https://www.theodinproject.com/about][About Odin]]
+- [[https://www.theodinproject.com/lessons/foundations-landing-page][Assignment page]]
