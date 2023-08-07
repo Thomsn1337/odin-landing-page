@@ -27,6 +27,7 @@ header {
   color: white;
   font-weight: 600;
   font-size: 24px;
+  flex-shrink: 0;
 }
 
 header ul {
@@ -35,6 +36,7 @@ header ul {
   margin: 0;
   list-style: none;
   gap: 40px;
+  flex-shrink: 0;
 }
 
 .link a {
@@ -50,13 +52,13 @@ header ul {
 
 /* Main content styling */
 
-/* Hero section */
-
 main {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+
+/* Hero section */
 
 .hero {
   padding: 0 180px;
@@ -113,6 +115,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   background-color: #adadad;
   color: black;
   font-size: 18px;
@@ -136,6 +139,7 @@ main {
 .images {
   display: flex;
   justify-content: center;
+  height: 275px;
 }
 
 .info figure {
@@ -179,9 +183,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 180px;
   background-color: #e5e7eb;
-  height: 350px;
+  min-height: 350px;
+  padding: 50px 240px;
 }
 
 .quote-text {
@@ -196,6 +200,63 @@ main {
   font-size: 22px;
   font-weight: bold;
   margin: 10px;
+}
+
+/* Signup section */
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 180px;
+  height: 350px;
+}
+
+.signup-banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  height: 150px;
+  background-color: #3882f6;
+  padding: 0 180px;
+}
+
+.signup-text {
+  margin-right: auto;
+  width: 650px;
+  flex-shrink: 0;
+}
+
+.signup-text h3 {
+  font-size: 24px;
+  margin: 5px 0;
+  color: white;
+}
+
+.signup-text p {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+.signup-banner button {
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  flex-shrink: 0;
+}
+
+.signup-banner button:hover {
+  background-color: white;
+  color: #3882f6;
 }
 
 /* Footer styling */
